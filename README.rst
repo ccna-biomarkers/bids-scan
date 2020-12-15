@@ -1,7 +1,10 @@
 bids-scan
 =========
-A quick one-liner tool to extract metadata from a `BIDS <https://bids.neuroimaging.io/>`_ dataset.
+A quick one-liner tool to extract site metadata from a `BIDS <https://bids.neuroimaging.io/>`_ dataset.
 The resulting output can be directly used for a publication, or a website for example.
+
+.. warning::
+   We suppose that each patient from the same site (and same modality, task) will have the same parameters.
 
 Input
 :::::
