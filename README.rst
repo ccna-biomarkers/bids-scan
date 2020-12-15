@@ -50,5 +50,7 @@ Requirements
 ------------
 
 * pybids 0.12.3
+* nibabel 3.2.1
 
 `pybids <https://github.com/bids-standard/pybids>`_ is the python wrapper aroung the bids dataset.
+`nibabel <https://github.com/nipy/nibabel>`_ get the imaging parameters (number of volumes, resolution, slice order method and scan time) directly from the `NIfTI <https://nifti.nimh.nih.gov/>`_ file if not correctly gathered.
