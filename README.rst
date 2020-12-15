@@ -11,15 +11,15 @@ A `BIDS <https://bids.neuroimaging.io/>`_ compatible f-mri data directory.
 Output
 ::::::
 
-The f-MRI sites parameters matrix as a csv table in the `reStructured Text <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ format.
+The sites parameters matrix as a csv table in the `reStructured Text <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ format.
 
-For example:
+For example for f-MRI:
 
-.. csv-table:: MRI sites parameters
-   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "Flip Angle", "TE (s)", "TR (s)"
-   :widths: 30, 10, 10, 10, 10, 10, 10
+.. csv-table:: f-MRI sites parameters
+   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "Flip Angle", "TE (s)", "TR (s)", "Volumes", "Scan slices order", "Scan time (min)"
+   :widths: 30, 5, 5, 5, 5, 5, 5, 5, 30, 5
 
-   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3, 256x256, 165, 0.091, 3
+   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
 
 Usage
 :::::
